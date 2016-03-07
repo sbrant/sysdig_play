@@ -1,0 +1,3 @@
+sysdig -p"%evt.datetime %fd.cip:%fd.cport %evt.dir %fd.sip:%fd.sport %fd.type %proc.exe" proc.name!=sshd
+
+
